@@ -1,0 +1,67 @@
+2025-01-26 15:04:06,879 - main.py - INFO - Starting the Rule Checker application.
+2025-01-26 15:04:06,879 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:04:07,803 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:04:07,803 - groq_chain.py - INFO - Initializing GroqChain with provided API key.
+2025-01-26 15:04:07,972 - groq_chain.py - INFO - GroqChain initialized successfully.
+2025-01-26 15:04:14,404 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:04:14,415 - groq_chain.py - INFO - Correcting sentence: 'Turn shaft assembly.' with issues: 'Missing article or demonstrative adjective.'
+2025-01-26 15:04:17,217 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 15:04:17,250 - groq_chain.py - INFO - Corrected sentence: 'Turn the shaft assembly.'
+2025-01-26 15:05:04,330 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:05:05,137 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:05:05,137 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:05:05,152 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:05:05,907 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:05:05,907 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:05:05,920 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:05:06,673 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:05:06,673 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:39:51,410 - main.py - INFO - Starting the Rule Checker application.
+2025-01-26 15:39:51,411 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:39:52,401 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:39:52,401 - groq_chain.py - INFO - Initializing GroqChain with provided API key.
+2025-01-26 15:39:52,546 - groq_chain.py - INFO - GroqChain initialized successfully.
+2025-01-26 15:40:03,305 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:40:03,319 - groq_chain.py - INFO - Correcting sentence: 'The test can be continued.' with issues: 'Not in active voice., Not in imperative form.'
+2025-01-26 15:40:06,361 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 15:40:06,384 - groq_chain.py - INFO - Corrected sentence: 'Continue the test.'
+2025-01-26 15:40:58,876 - main.py - INFO - Starting the Rule Checker application.
+2025-01-26 15:40:58,876 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:40:59,683 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:40:59,684 - groq_chain.py - INFO - Initializing GroqChain with provided API key.
+2025-01-26 15:40:59,812 - groq_chain.py - INFO - GroqChain initialized successfully.
+2025-01-26 15:41:03,384 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:41:03,398 - groq_chain.py - INFO - Correcting sentence: 'Set the TEST switch to the middle position and release the SHORT-CIRCUIT' with issues: 'Contains multiple instructions.'
+2025-01-26 15:41:04,065 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 15:41:04,089 - groq_chain.py - INFO - Corrected sentence: 'A. Set the TEST switch to the middle position.
+B. Release the SHORT-CIRCUIT switch.'
+2025-01-26 15:42:28,868 - main.py - INFO - Starting the Rule Checker application.
+2025-01-26 15:42:28,868 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:42:29,674 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:42:29,674 - groq_chain.py - INFO - Initializing GroqChain with provided API key.
+2025-01-26 15:42:29,805 - groq_chain.py - INFO - GroqChain initialized successfully.
+2025-01-26 15:42:33,669 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:42:33,682 - groq_chain.py - INFO - Correcting sentence: 'The safety procedures are supplied by the manufacturer.' with issues: 'Not in active voice.'
+2025-01-26 15:42:34,359 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 15:42:34,375 - groq_chain.py - INFO - Corrected sentence: 'The manufacturer supplies the safety procedures.'
+2025-01-26 15:50:50,857 - main.py - INFO - Starting the Rule Checker application.
+2025-01-26 15:50:50,857 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 15:50:51,663 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 15:50:51,663 - groq_chain.py - INFO - Initializing GroqChain with provided API key.
+2025-01-26 15:50:51,791 - groq_chain.py - INFO - GroqChain initialized successfully.
+2025-01-26 15:50:54,037 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 15:50:54,052 - groq_chain.py - INFO - Correcting sentence: 'Turn shaft assembly.' with issues: 'Missing article or demonstrative adjective.'
+2025-01-26 15:50:54,737 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 15:50:54,757 - groq_chain.py - INFO - Corrected sentence: 'Turn the shaft assembly.'
+2025-01-26 15:50:54,757 - groq_chain.py - INFO - Correcting sentence: 'The safety procedures are supplied by the manufacturer.' with issues: 'Not in active voice.'
+2025-01-26 15:50:55,210 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 15:50:55,213 - groq_chain.py - INFO - Corrected sentence: 'The manufacturer supplies the safety procedures.'
+2025-01-26 16:04:11,933 - main.py - INFO - Starting the Rule Checker application.
+2025-01-26 16:04:11,933 - rule_checker.py - INFO - Loading SpaCy language model.
+2025-01-26 16:04:12,805 - rule_checker.py - INFO - SpaCy language model loaded successfully.
+2025-01-26 16:04:12,805 - groq_chain.py - INFO - Initializing GroqChain with provided API key.
+2025-01-26 16:04:12,954 - groq_chain.py - INFO - GroqChain initialized successfully.
+2025-01-26 16:04:26,869 - rule_checker.py - INFO - Analyzing text for rule violations.
+2025-01-26 16:04:26,879 - groq_chain.py - INFO - Correcting sentence: 'Turn shaft assembly.' with issues: 'Missing article or demonstrative adjective.'
+2025-01-26 16:04:27,547 - _client.py - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 16:04:27,564 - groq_chain.py - INFO - Corrected sentence: 'Turn the shaft assembly.'
