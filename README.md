@@ -46,13 +46,16 @@ Logs are saved centrally in a `logs` folder for better traceability, and sensiti
    ```bash
    pip install -r requirements.txt
    ```
-
-4. Set up the `logs` directory:
+4. Download the SpaCy model en_core_web_sm
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
+5. Set up the `logs` directory:
    ```bash
    mkdir logs
    ```
 
-5. Configure your API key in `src/config.py`:
+6. Configure your API key in `src/config.py`:
    ```python
    GROQ_API_KEY = "your_api_key_here"  # Replace with your actual API key
    ```
